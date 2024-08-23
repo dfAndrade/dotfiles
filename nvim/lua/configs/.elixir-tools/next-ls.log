@@ -1,0 +1,316 @@
+
+21:33:25.760 [info] Loading 137 CA(s) from :otp store
+
+21:33:25.872 id=1 [debug] handled request client -> server initialize in 77ms
+
+21:33:25.876 [debug] sent notification server -> client window/logMessage
+
+21:33:25.879 [debug] NextLS v0.22.7 has initialized!
+
+21:33:25.879 [debug] sent notification server -> client window/logMessage
+
+21:33:25.879 [debug] Log file located at /home/maximus/.config/nvim/lua/configs/.elixir-tools/next-ls.log
+
+21:33:25.881 [debug] sent notification server -> client window/logMessage
+
+21:33:25.881 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+21:33:25.906 [info] Loading 137 CA(s) from :otp store
+
+21:33:26.017 id=1 [debug] handled request client -> server initialize in 76ms
+
+21:33:26.022 [debug] sent notification server -> client window/logMessage
+
+21:33:26.025 [debug] NextLS v0.22.7 has initialized!
+
+21:33:26.025 [debug] sent notification server -> client window/logMessage
+
+21:33:26.025 [debug] Log file located at /home/maximus/.config/nvim/lua/configs/.elixir-tools/next-ls.log
+
+21:33:26.028 [debug] sent notification server -> client window/logMessage
+
+21:33:26.028 [info] [extension] Credo initializing with options %NextLS.InitOpts.Extensions.Credo{enable: true, cli_options: []}
+
+21:33:26.016 [debug] sent notification server -> client window/logMessage
+
+21:33:26.016 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"", 126}
+    (next_ls 0.22.7) lib/next_ls/runtime/bundled_elixir.ex:49: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.22.7) lib/next_ls.ex:902: NextLS.handle_notification/2
+    (gen_lsp 0.9.0) lib/gen_lsp.ex:442: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.9.0) lib/gen_lsp.ex:441: anonymous fn/6 in GenLSP.loop/3
+    (gen_lsp 0.9.0) lib/gen_lsp.ex:511: GenLSP.attempt/4
+    (stdlib 5.2) proc_lib.erl:241: :proc_lib.init_p_do_apply/3
+
+
+
+21:33:26.016 [debug] sent notification server -> client window/logMessage
+
+21:33:26.016 [debug] Booting runtimes...
+
+21:33:26.018 id=66 [debug] sent request server -> client window/workDoneProgress/create
+
+21:33:26.022 [debug] sent notification server -> client $/progress
+
+21:33:26.031 [debug] sent notification server -> client window/logMessage
+
+21:33:26.031 [info] Beginning DB migration...
+
+21:33:26.036 [debug] sent notification server -> client window/logMessage
+
+21:33:26.036 [info] Database is on the latest version: 7
+
+21:33:26.036 [debug] sent notification server -> client window/logMessage
+
+21:33:26.036 [info] Finished DB migration...
+
+21:33:26.036 [debug] sent notification server -> client window/logMessage
+
+21:33:26.036 [info] Booting runtime for log-level.
+
+- elixir: /home/maximus/.asdf/shims/elixir
+- zombie wrapper script: /home/maximus/.local/share/.burrito/next_ls_erts-14.2.1_0.22.7/lib/next_ls-0.22.7/priv/cmd
+- working_dir: /home/maximus/exercism/elixir/log-level
+- command: /home/maximus/.asdf/shims/elixir --no-halt --sname nextls-runtime-1716669206036345238 --cookie 6YKJ4EXM2LJRBXJ7R47QL7B4OZ763MWX2QOHCKRERSKTJHV72XEQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3K25leHQtbHMtMTcxNjY2OTIwNTc2OTIzMzIzOEBMQVBUT1AtVU5FMlZUN0cAAAEQAAAAAGZSSxY=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/home/maximus/.asdf/shims:/home/maximus/.local/share/.burrito/next_ls_erts-14.2.1_0.22.7/bin:/home/maximus/.local/share/nvim/mason/bin:/home/maximus/.asdf/installs/neovim/0.9.5/bin:/home/maximus/.asdf/shims:/home/maximus/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Program Files/Java/jdk-17.0.5/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Oculus/Support/oculus-runtime:/mnt/c/Python39/Scripts:/mnt/c/Python39:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/erl10.3/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Elixir/bin:/mnt/c/Users/diogo/.mix/escripts:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/ProgramData/chocolatey/lib/Elixir/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/diogo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/diogo/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/diogo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2023.1/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2020.2.3/bin:/mnt/c/Users/diogo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2020.2.3/bin:/mnt/c/Program Files/JetBrains/PhpStorm 2021.1.4/bin:/mnt/c/Users/diogo/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/diogo/AppData/Roaming/npm:/mnt/c/Users/diogo/AppData/Local/Android/Sdk/platform-tools:/home/maximus/.bin/
+
+
+21:33:26.037 [debug] handled notification client -> server initialized in 163ms
+
+21:33:26.041 [debug] handled notification client -> server textDocument/didOpen in 4ms
+
+21:33:26.169 [debug] sent notification server -> client window/logMessage
+
+21:33:26.169 [warning] Failed to unzip and install the bundled Elixir archive.
+
+** (MatchError) no match of right hand side value: {"", 126}
+    (next_ls 0.22.7) lib/next_ls/runtime/bundled_elixir.ex:49: NextLS.Runtime.BundledElixir.install/2
+    (next_ls 0.22.7) lib/next_ls.ex:902: NextLS.handle_notification/2
+    (gen_lsp 0.9.0) lib/gen_lsp.ex:442: anonymous fn/2 in GenLSP.loop/3
+    (telemetry 1.2.1) /Users/runner/work/next-ls/next-ls/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (gen_lsp 0.9.0) lib/gen_lsp.ex:441: anonymous fn/6 in GenLSP.loop/3
+    (gen_lsp 0.9.0) lib/gen_lsp.ex:511: GenLSP.attempt/4
+    (stdlib 5.2) proc_lib.erl:241: :proc_lib.init_p_do_apply/3
+
+
+
+21:33:26.169 [debug] sent notification server -> client window/logMessage
+
+21:33:26.169 [debug] Booting runtimes...
+
+21:33:26.171 id=196 [debug] sent request server -> client window/workDoneProgress/create
+
+21:33:26.175 [debug] sent notification server -> client $/progress
+
+21:33:26.184 [debug] sent notification server -> client window/logMessage
+
+21:33:26.184 [info] Beginning DB migration...
+
+21:33:26.189 [debug] sent notification server -> client window/logMessage
+
+21:33:26.189 [info] Database is on the latest version: 7
+
+21:33:26.189 [debug] sent notification server -> client window/logMessage
+
+21:33:26.189 [info] Finished DB migration...
+
+21:33:26.189 [debug] sent notification server -> client window/logMessage
+
+21:33:26.189 [info] Booting runtime for log-level.
+
+- elixir: /home/maximus/.asdf/shims/elixir
+- zombie wrapper script: /home/maximus/.local/share/.burrito/next_ls_erts-14.2.1_0.22.7/lib/next_ls-0.22.7/priv/cmd
+- working_dir: /home/maximus/exercism/elixir/log-level
+- command: /home/maximus/.asdf/shims/elixir --no-halt --sname nextls-runtime-1716669206189213338 --cookie 6YKJ4EXM2LJRBXJ7R47QL7B4OZ763MWX2QOHCKRERSKTJHV72XEQ==== -S mix loadpaths --no-compile
+
+Environment: 
+
+LSP=nextls
+NEXTLS_PARENT_PID=g1h3K25leHQtbHMtMTcxNjY2OTIwNTkxNDY0ODUzOEBMQVBUT1AtVU5FMlZUN0cAAAEQAAAAAGZSSxY=
+MIX_ENV=dev
+MIX_TARGET=host
+MIX_BUILD_ROOT=.elixir-tools/_build
+ROOTDIR=false
+BINDIR=false
+RELEASE_ROOT=false
+RELEASE_SYS_CONFIG=false
+PATH=/home/maximus/.asdf/shims:/home/maximus/.local/share/.burrito/next_ls_erts-14.2.1_0.22.7/bin:/home/maximus/.local/share/nvim/mason/bin:/home/maximus/.asdf/installs/neovim/0.9.5/bin:/home/maximus/.asdf/shims:/home/maximus/.asdf/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Program Files/Java/jdk-17.0.5/bin:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Oculus/Support/oculus-runtime:/mnt/c/Python39/Scripts:/mnt/c/Python39:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/erl10.3/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Elixir/bin:/mnt/c/Users/diogo/.mix/escripts:/mnt/c/Program Files/dotnet/:/mnt/c/xampp/php:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/ProgramData/chocolatey/lib/Elixir/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Tailscale/:/mnt/c/Users/diogo/AppData/Local/Programs/Python/Python310/Scripts/:/mnt/c/Users/diogo/AppData/Local/Programs/Python/Python310/:/mnt/c/Users/diogo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2023.1/bin:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2020.2.3/bin:/mnt/c/Users/diogo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/PyCharm 2020.2.3/bin:/mnt/c/Program Files/JetBrains/PhpStorm 2021.1.4/bin:/mnt/c/Users/diogo/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/diogo/AppData/Roaming/npm:/mnt/c/Users/diogo/AppData/Local/Android/Sdk/platform-tools:/home/maximus/.bin/
+
+
+21:33:26.189 [debug] handled notification client -> server initialized in 170ms
+
+21:33:26.196 [debug] handled notification client -> server textDocument/didOpen in 6ms
+
+21:33:27.046 [debug] sent notification server -> client window/logMessage
+
+21:33:27.046 [info] Connected to node nextls-runtime-1716669206036345238@LAPTOP-UNE2VT7G
+
+21:33:27.198 [debug] sent notification server -> client window/logMessage
+
+21:33:27.198 [info] Connected to node nextls-runtime-1716669206189213338@LAPTOP-UNE2VT7G
+
+21:33:27.344 [debug] sent notification server -> client $/progress
+
+21:33:27.345 [debug] sent notification server -> client window/logMessage
+
+21:33:27.345 [debug] Runtime for folder log-level is ready...
+
+21:33:27.347 id=323 [debug] sent request server -> client window/workDoneProgress/create
+
+21:33:27.348 [debug] sent notification server -> client $/progress
+
+21:33:27.402 [debug] sent notification server -> client window/logMessage
+
+21:33:27.402 [info]     warning: variable "legacy?" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  2 │   def to_label(level, legacy?) do
+    │                       ~~~~~~~
+    │
+    └─ lib/log_level.ex:2:23: LogLevel.to_label/2
+
+
+
+21:33:27.402 [debug] sent notification server -> client window/logMessage
+
+21:33:27.402 [info]     warning: variable "level" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  2 │   def to_label(level, legacy?) do
+    │                ~~~~~
+    │
+    └─ lib/log_level.ex:2:16: LogLevel.to_label/2
+
+
+
+21:33:27.402 [debug] sent notification server -> client window/logMessage
+
+21:33:27.402 [info]     warning: variable "legacy?" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  6 │   def alert_recipient(level, legacy?) do
+    │                              ~~~~~~~
+    │
+    └─ lib/log_level.ex:6:30: LogLevel.alert_recipient/2
+
+
+
+21:33:27.402 [debug] sent notification server -> client window/logMessage
+
+21:33:27.402 [info]     warning: variable "level" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  6 │   def alert_recipient(level, legacy?) do
+    │                       ~~~~~
+    │
+    └─ lib/log_level.ex:6:23: LogLevel.alert_recipient/2
+
+
+
+21:33:27.408 [debug] sent notification server -> client $/progress
+
+21:33:27.408 [debug] sent notification server -> client window/logMessage
+
+21:33:27.408 [info] Compiled log-level!
+
+21:33:27.409 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+21:33:27.409 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+21:33:27.495 [debug] sent notification server -> client $/progress
+
+21:33:27.497 [debug] sent notification server -> client window/logMessage
+
+21:33:27.497 [debug] Runtime for folder log-level is ready...
+
+21:33:27.498 id=194 [debug] sent request server -> client window/workDoneProgress/create
+
+21:33:27.499 [debug] sent notification server -> client $/progress
+
+21:33:27.551 [debug] sent notification server -> client window/logMessage
+
+21:33:27.551 [info]     warning: variable "legacy?" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  2 │   def to_label(level, legacy?) do
+    │                       ~~~~~~~
+    │
+    └─ lib/log_level.ex:2:23: LogLevel.to_label/2
+
+
+
+21:33:27.551 [debug] sent notification server -> client window/logMessage
+
+21:33:27.551 [info]     warning: variable "level" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  2 │   def to_label(level, legacy?) do
+    │                ~~~~~
+    │
+    └─ lib/log_level.ex:2:16: LogLevel.to_label/2
+
+
+
+21:33:27.551 [debug] sent notification server -> client window/logMessage
+
+21:33:27.551 [info]     warning: variable "legacy?" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  6 │   def alert_recipient(level, legacy?) do
+    │                              ~~~~~~~
+    │
+    └─ lib/log_level.ex:6:30: LogLevel.alert_recipient/2
+
+
+
+21:33:27.551 [debug] sent notification server -> client window/logMessage
+
+21:33:27.551 [info]     warning: variable "level" is unused (if the variable is not meant to be used, prefix it with an underscore)
+    │
+  6 │   def alert_recipient(level, legacy?) do
+    │                       ~~~~~
+    │
+    └─ lib/log_level.ex:6:23: LogLevel.alert_recipient/2
+
+
+
+21:33:27.562 [debug] sent notification server -> client $/progress
+
+21:33:27.562 [debug] sent notification server -> client window/logMessage
+
+21:33:27.562 [info] Compiled log-level!
+
+21:33:27.563 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+21:33:27.564 [debug] sent notification server -> client textDocument/publishDiagnostics
+
+21:34:04.844 id=2 [debug] handled request client -> server shutdown in 1ms
+
+21:34:04.850 [debug] sent notification server -> client window/logMessage
+
+21:34:04.851 [info] The runtime for log-level has successfully shut down.
+
+21:34:04.844 id=2 [debug] handled request client -> server shutdown in 1ms
+
+21:34:04.850 [debug] sent notification server -> client window/logMessage
+
+21:34:04.850 [info] The runtime for log-level has successfully shut down.
+
+21:34:04.851 [debug] sent notification server -> client window/logMessage
+
+21:34:04.851 [info] Beginning DB migration...
+
+21:34:04.852 [debug] sent notification server -> client window/logMessage
+
+21:34:04.852 [info] Database is on the latest version: 7
+
+21:34:04.852 [debug] sent notification server -> client window/logMessage
+
+21:34:04.852 [info] Finished DB migration...
