@@ -50,4 +50,13 @@ return {
     "nvim-tree/nvim-tree.lua",
     opts = require "configs.nvim-tree",
   },
+  {
+    "kylechui/nvim-surround",
+    version = "*", -- Use for stability; omit to use `main` branch for the latest features
+    event = "VeryLazy",
+    config = function()
+      local opts = require "configs.surround"
+      require("nvim-surround").setup(opts)
+    end,
+  },
 }

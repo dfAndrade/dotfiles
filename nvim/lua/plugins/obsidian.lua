@@ -24,18 +24,18 @@ return {
     -- the workspace to the first workspace in the list whose `path` is a parent of the
     -- current markdown file being edited.
     workspaces = {
+      -- {
+      --   name = "personal",
+      --   path = "/mnt/c/Users/diogo/Documents/Vaults/personal",
+      -- },
       {
         name = "personal",
-        path = "/mnt/c/Users/diogo/Documents/Vaults/personal",
+        path = "~/vaults/personal",
+        -- Optional, override certain settings.
+        -- overrides = {
+        --   notes_subdir = "notes",
+        -- },
       },
-      -- {
-      --   name = "work",
-      --   path = "~/vaults/work",
-      --   -- Optional, override certain settings.
-      --   overrides = {
-      --     notes_subdir = "notes",
-      --   },
-      -- },
     },
 
     -- Alternatively - and for backwards compatibility - you can set 'dir' to a single path instead of

@@ -1,7 +1,8 @@
 require "nvchad.mappings"
 
 local map = vim.keymap.set
-local nomap = vim.keymap.del
+local unmap = vim.keymap.del
+local autocmd = vim.api.nvim_create_autocmd
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
 
@@ -9,15 +10,16 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "kj", "<ESC>")
 
 -- Show top of current context
-map("n", "<leader>sc", ":TSContextToggle<CR>", { desc = "TSContext Toggle context" })
-map("n", "<leader>sd", ":Nvdash<CR>", { desc = "DASH Show dash" })
+map("n", "<leader>sc", "<cmd>TSContextToggle<CR>", { desc = "TSContext Toggle context" })
+map("n", "<leader>sd", "<cmd>Nvdash<CR>", { desc = "DASH Show dash" })
+map("n", "<leader>tp", "<cmd>Telescope project<CR>", { desc = "Telescope Open projects" })
 
 -- TODO Ctrl+p signature help in edit mode
 -- map("i", "<C-p>", require( )
 
 -- unmap untoggle-able terminal commands
-nomap("n", "<leader>v")
-nomap("n", "<leader>h")
+unmap("n", "<leader>v")
+unmap("n", "<leader>h")
 
 -- nvim tree focus or close
 local nvimTreeFocusOrToggle = function()
@@ -33,7 +35,7 @@ end
 map("n", "<leader>e", nvimTreeFocusOrToggle, { desc = "Open or toggle tree" })
 
 -- gtfo
-map("n", "<leader>q", ":qa<CR>")
+map("n", "<leader>q", "<cmd>qa<CR>")
 
 -- Enable clip board capabilities
 vim.g.clipboard = {
@@ -59,3 +61,11 @@ vim.api.nvim_create_user_command("NV", function()
   local tree = require "nvim-tree.api"
   tree.tree.focus()
 end, {})
+
+-- Function to show diagnostics in a floating window
+local function show_diagnostics()
+  vim.diagnostic.open_float(nil, { focusable = false })
+end
+
+-- Hover for diagnostics
+autocmd("CursorHold", { pattern = "*", callback = show_diagnostics })

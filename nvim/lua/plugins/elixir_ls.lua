@@ -1,5 +1,5 @@
 local map = vim.keymap.set
-local conf = require("nvconfig").ui.lsp
+local conf = require("nvconfig").lsp
 return {
   {
     "nvim-treesitter/nvim-treesitter-context",
@@ -47,7 +47,7 @@ return {
             map("n", "gr", vim.lsp.buf.references, opts "Show references")
 
             -- setup signature popup
-            if conf.signature and client.server_capabilities.signatureHelpProvider then
+            if conf and conf.signature and client.server_capabilities.signatureHelpProvider then
               require("nvchad.lsp.signature").setup(client, bufnr)
             end
           end,
